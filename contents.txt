@@ -1,0 +1,6 @@
+Handle bars 
+partials and templating
+404 pages
+
+providing empty values for destructuted objects
+

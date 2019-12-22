@@ -25,7 +25,7 @@ weatherForm.addEventListener('submit',(event)=>{
             }
             else{
                 messageOne.textContent= data.location
-                messageTwo.textContent= data.forecast.temparature
+                messageTwo.textContent= 'Temparature is: '+data.forecast.temparature + ' windSpeed is: ' +data.forecast.windSpeed
                 // console.log(data.forecast)
 
             }

@@ -11,7 +11,8 @@ const forecast = (lat, long, callback)=>{
             callback(undefined,{
                 summary: body.daily.data[0].summary,
                 temparature:body.currently.temperature+'degrees',
-                chanceofrain:body.currently.precipProbability+'%'
+                chanceofrain:body.currently.precipProbability+'%',
+                windSpeed: body.currently.windSpeed+'Km/hour'
             })
         }
     })
